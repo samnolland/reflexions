@@ -1,0 +1,5 @@
+1) What happens when you initialize a repository? Why do you need to do it?
+It creates a .git folder with the necessary config file. You can add files and start creating commitsi
+
+2) How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area takes a snapshop of the working directory and saves it to be commited to the repo. 
