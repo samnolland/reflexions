@@ -3,3 +3,25 @@ It creates a .git folder with the necessary config file. You can add files and s
 
 2) How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area takes a snapshop of the working directory and saves it to be commited to the repo. 
+
+3) How can you use the staging area to make sure you have one commit per logical change?
+You can use git diff and git diff --staged to check the difference between each changes and make sure you stage only the changes you are really aready to commit
+
+4) How do the diagrams help you visualize the branch structure?
+Branch structure is pretty easy to understand, I did not clearly understood a to create a commit not associated in a branch
+
+5) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- The results combines the changes made in both branches and compares it with the original source to make sure that no work is dammaging the other persons work
+- Representing the branches in a diagram helps you better see the logical path of the branches and helps you take the best decision for merging branches
+
+6) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- Autmatic merging is faster and saves a lot of time,
+- Mergin manually when there's a conflict allows you to see the changes and decide the best option
+
+
+
+
+
+
+
+
